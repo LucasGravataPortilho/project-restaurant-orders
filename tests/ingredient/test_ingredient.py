@@ -12,7 +12,7 @@ def test_ingredient():
     assert correct_ingredient != wrong_ingredient
     assert invalid_ingredient.name == ''
 
-    #assert se ingredientes tem alguma restrição
+    # assert se ingredientes tem alguma restrição
     assert correct_ingredient.restrictions == set()
 
     # assert hashes de ingredientes
@@ -21,4 +21,3 @@ def test_ingredient():
 
     # assert representação dos Ingredients
     assert correct_ingredient.__repr__() == "Ingredient('queijo prato')"
-
